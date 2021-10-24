@@ -1,13 +1,13 @@
 {
   "name": "szi-node-html-demo",
   "version": "1.0.0",
-  "description": "node web-site with pug",
+  "description": "node web-site with ejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache License, Version 2.0",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
