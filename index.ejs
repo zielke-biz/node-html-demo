@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ejs Users Demo</title>
+    </head>
+    <body>
+        <h1>
+            Users
+        </h1>
+        <table>
+            <% users.forEach(( user ) => { %>
+                <tr>
+                    <td><%= user.firstName %></td>
+                    <td><%= user.lastName %></td>
+                    <td><%= user.title %></td>
+                </tr>
+            <% }); %>
+        </table>
+    </body>
+</html>
